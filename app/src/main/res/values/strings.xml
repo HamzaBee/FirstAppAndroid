@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">Test</string>
+    <string name="app_name">MultiApp Pro</string>
+    <string name="title_app1">Convertisseur Euro en DH</string>
+    <string name="title_app2">Jeu de Hasard</string>
+    <string name="title_app3">Calculateur d\'IMC</string>
+    
+    <!-- App 1 (Converter) -->
+    <string name="enter_amount_euro">Saisir le montant en Euro</string>
+    <string name="compute">Calculer</string>
+    
+    <!-- App 2 (Random Game) -->
+    <string name="text_devinez">Devinez le nombre secret (1-100):</string>
+    <string name="nombre_plus_grand">Nombre plus grand</string>
+    <string name="nombre_plus_petit">Nombre plus petit</string>
+    <string name="bravo">Bravo !</string>
+    <string name="str_score">Score:</string>
+    <string name="essai_numero">Essai Numéro:</string>
+    <string name="str_nouvel_essai">Nouvel essai?</string>
+    
+    <!-- App 3 (IMC) -->
+    <string name="imc_weight_hint">Poids (kg)</string>
+    <string name="imc_height_hint">Taille (cm)</string>
+    <string name="imc_button">Calculer l\'IMC</string>
+    <string name="imc_result_label">Votre IMC:</string>
+    <string name="imc_underweight">Sous-poids (Maigreur)</string>
+    <string name="imc_normal">Poids normal</string>
+    <string name="imc_overweight">Surpoids</string>
+    <string name="imc_obese">Obésité</string>
+    <string name="imc_severely_obese">Obésité Sévère</string>
 </resources>

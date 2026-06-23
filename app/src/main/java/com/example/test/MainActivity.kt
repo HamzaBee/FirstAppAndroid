@@ -1,16 +1,12 @@
 package com.example.test
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.ArrayAdapter
 import android.widget.Button
-import android.widget.EditText
-import android.widget.ListView
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,29 +20,20 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val editTextAmount = findViewById<EditText>(R.id.editTextAmount)
-        val btnCompute = findViewById<Button>(R.id.btnCompute)
-        val textViewResult = findViewById<TextView>(R.id.textViewResult)
-        val listViewResult = findViewById<ListView>(R.id.listViewResults)
+        val btnApp1 = findViewById<Button>(R.id.btnApp1)
+        val btnApp2 = findViewById<Button>(R.id.btnApp2)
+        val btnApp3 = findViewById<Button>(R.id.btnApp3)
 
-        val data = ArrayList<String>()
-        val stringArrayAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, data)
-        listViewResult.adapter = stringArrayAdapter
+        btnApp1.setOnClickListener {
+            startActivity(Intent(this, CurrencyActivity::class.java))
+        }
 
-        btnCompute.setOnClickListener {
-            val amountText = editTextAmount.text.toString()
-            if (amountText.isNotEmpty()) {
-                try {
-                    val amount = amountText.toDouble()
-                    val result = amount * 11
-                    textViewResult.text = result.toString()
-                    data.add("$amount=>$result")
-                    stringArrayAdapter.notifyDataSetChanged()
-                    editTextAmount.setText("")
-                } catch (e: NumberFormatException) {
-                    // Handle invalid input format gracefully
-                }
-            }
+        btnApp2.setOnClickListener {
+            startActivity(Intent(this, GameActivity::class.java))
+        }
+
+        btnApp3.setOnClickListener {
+            startActivity(Intent(this, ImcActivity::class.java))
         }
     }
 }

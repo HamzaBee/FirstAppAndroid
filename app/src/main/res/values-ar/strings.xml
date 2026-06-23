@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">تطبيق الأدوات المتعددة</string>
+    <string name="title_app1">محول اليورو إلى الدرهم المغربي</string>
+    <string name="title_app2">لعبة التخمين العشوائية</string>
+    <string name="title_app3">حاسبة مؤشر كتلة الجسم (IMC)</string>
+    
+    <!-- App 1 (Converter) -->
+    <string name="enter_amount_euro">أدخل المبلغ باليورو</string>
+    <string name="compute">احسب</string>
+    
+    <!-- App 2 (Random Game) -->
+    <string name="text_devinez">خمن الرقم السري (1-100):</string>
+    <string name="nombre_plus_grand">الرقم السري أكبر</string>
+    <string name="nombre_plus_petit">الرقم السري أصغر</string>
+    <string name="bravo">أحسنت !</string>
+    <string name="str_score">النتيجة:</string>
+    <string name="essai_numero">رقم المحاولة:</string>
+    <string name="str_nouvel_essai">جولة جديدة؟</string>
+    
+    <!-- App 3 (IMC) -->
+    <string name="imc_weight_hint">الوزن (كجم)</string>
+    <string name="imc_height_hint">الطول (سم)</string>
+    <string name="imc_button">احسب مؤشر كتلة الجسم</string>
+    <string name="imc_result_label">مؤشر كتلة الجسم:</string>
+    <string name="imc_underweight">نقص الوزن (نحافة)</string>
+    <string name="imc_normal">وزن طبيعي</string>
+    <string name="imc_overweight">وزن زائد</string>
+    <string name="imc_obese">سمنة</string>
+    <string name="imc_severely_obese">سمنة مفرطة</string>
+</resources>

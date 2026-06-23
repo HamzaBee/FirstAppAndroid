@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MultiApp Pro</string>
+    <string name="title_app1">Euro to DH Converter</string>
+    <string name="title_app2">Random Guessing Game</string>
+    <string name="title_app3">BMI Calculator</string>
+    
+    <!-- App 1 (Converter) -->
+    <string name="enter_amount_euro">Enter amount in Euro</string>
+    <string name="compute">Compute</string>
+    
+    <!-- App 2 (Random Game) -->
+    <string name="text_devinez">Guess the secret number (1-100):</string>
+    <string name="nombre_plus_grand">Number is greater</string>
+    <string name="nombre_plus_petit">Number is smaller</string>
+    <string name="bravo">Congratulation!</string>
+    <string name="str_score">Score:</string>
+    <string name="essai_numero">Round number:</string>
+    <string name="str_nouvel_essai">New Round?</string>
+    
+    <!-- App 3 (IMC) -->
+    <string name="imc_weight_hint">Weight (kg)</string>
+    <string name="imc_height_hint">Height (cm)</string>
+    <string name="imc_button">Calculate BMI</string>
+    <string name="imc_result_label">Your BMI:</string>
+    <string name="imc_underweight">Underweight</string>
+    <string name="imc_normal">Normal weight</string>
+    <string name="imc_overweight">Overweight</string>
+    <string name="imc_obese">Obese</string>
+    <string name="imc_severely_obese">Severely Obese</string>
+</resources>
